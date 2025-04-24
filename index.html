@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alphington Accounting Services | Professional Financial Solutions</title>
     <meta name="description" content="Transform your business finances with Alphington's professional accounting services. Expert payroll processing, cash flow forecasting, and dedicated financial management.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="font-sans antialiased text-gray-900 bg-white">
     <!-- Header -->
@@ -14,16 +23,41 @@
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
                 <div class="flex-shrink-0">
-                    <a href="/" class="text-2xl font-bold text-blue-600">Alphington</a>
+                    <a href="https://test-acc-12349.github.io/alphington-accounting-services-2025-04-24-o3e2f" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300">Alphington</a>
                 </div>
+                
+                <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8">
                     <a href="#services" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Services</a>
                     <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About Us</a>
                     <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
                 </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button md:hidden p-2 rounded-md hover:bg-gray-100 transition duration-300" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl text-gray-600"></i>
+                </button>
+
                 <div class="hidden md:block">
-                    <a href="https://theaccountants.com" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-300">
+                    <a href="https://theaccountants.com" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden bg-white absolute left-0 right-0 p-4 mt-2 shadow-lg border-t">
+                <div class="flex flex-col space-y-4">
+                    <a href="#services" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Services</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">About Us</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Contact</a>
+                    <a href="https://theaccountants.com" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
                         Get Started
                     </a>
                 </div>
@@ -36,13 +70,16 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 tracking-tight mb-8" data-aos="fade-up">
-                    We transform numbers into opportunities
+                    Transform Your Financial Future Today
                 </h1>
                 <p class="max-w-2xl mx-auto text-xl text-gray-600 mb-12" data-aos="fade-up" data-aos-delay="100">
-                    Professional accounting services tailored to help your business thrive and grow.
+                    Expert accounting solutions that drive growth, optimize performance, and secure your business success. Join over 1,000+ satisfied clients who trust Alphington.
                 </p>
-                <a href="https://theaccountants.com" class="inline-flex items-center px-8 py-4 border border-transparent text-lg font-semibold rounded-md text-white bg-blue-600 hover:bg-blue-700 transition transform hover:scale-105 duration-300" data-aos="fade-up" data-aos-delay="200">
+                <a href="https://theaccountants.com" class="inline-flex items-center px-8 py-4 border border-transparent text-lg font-semibold rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 hover:shadow-xl" data-aos="fade-up" data-aos-delay="200">
                     Start Your Journey
+                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                    </svg>
                 </a>
             </div>
         </div>
@@ -53,37 +90,37 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">Comprehensive Financial Services</h2>
-                <p class="text-xl text-gray-600">Expert solutions for your business needs</p>
+                <p class="text-xl text-gray-600">Tailored solutions to accelerate your business growth</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300" data-aos="fade-up">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102" data-aos="fade-up">
                     <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
                         <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Dedicated Manager</h3>
-                    <p class="text-gray-600">Your personal financial expert, providing tailored guidance and support.</p>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Personal Financial Manager</h3>
+                    <p class="text-gray-600">Your dedicated expert providing strategic guidance, real-time insights, and proactive financial planning to maximize your business potential.</p>
                 </div>
                 
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="100">
                     <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
                         <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Payroll Processing</h3>
-                    <p class="text-gray-600">Efficient and accurate payroll management for your team.</p>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Advanced Payroll Solutions</h3>
+                    <p class="text-gray-600">Streamlined payroll processing with automated tax calculations, employee benefits management, and compliance monitoring for peace of mind.</p>
                 </div>
 
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="200">
                     <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
                         <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Cash Flow Forecasting</h3>
-                    <p class="text-gray-600">Strategic financial planning to optimize your business growth.</p>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Predictive Cash Flow Analysis</h3>
+                    <p class="text-gray-600">Advanced forecasting tools and strategic planning to optimize working capital, identify growth opportunities, and ensure financial stability.</p>
                 </div>
             </div>
         </div>
@@ -94,37 +131,101 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">Why Choose Alphington</h2>
-                <p class="text-xl text-gray-600">Transform your business with our expert financial services</p>
+                <p class="text-xl text-gray-600">Experience the difference with our premium financial services</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="text-center" data-aos="fade-up">
+                <div class="text-center transform hover:scale-105 transition-all duration-300" data-aos="fade-up">
                     <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Financial Clarity</h3>
-                    <p class="text-gray-600">Clear insights into your business finances for informed decision-making.</p>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Real-Time Financial Insights</h3>
+                    <p class="text-gray-600">Access detailed financial analytics and actionable insights through our intuitive dashboard, enabling informed decision-making 24/7.</p>
                 </div>
 
-                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="text-center transform hover:scale-105 transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
                     <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Strategic Planning</h3>
-                    <p class="text-gray-600">Expert guidance to help you achieve your business objectives.</p>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Strategic Growth Planning</h3>
+                    <p class="text-gray-600">Comprehensive business analysis and tailored strategies to accelerate growth and maximize profitability in your market.</p>
                 </div>
 
-                <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                <div class="text-center transform hover:scale-105 transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
                     <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Business Growth</h3>
-                    <p class="text-gray-600">Accelerate your success with our proven financial strategies.</p>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Continuous Innovation</h3>
+                    <p class="text-gray-600">Stay ahead with our cutting-edge financial tools and technology, ensuring your business remains competitive in a dynamic market.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">About Alphington</h2>
+                <div class="max-w-3xl mx-auto">
+                    <p class="text-gray-600 mb-6">
+                        Founded in 2010, Alphington emerged from a vision to revolutionize financial services for growing businesses. Our journey began when our founders, experienced financial professionals, recognized the need for more personalized and technology-driven accounting solutions. Over the years, we've grown from a small local firm to a trusted partner serving clients nationwide.
+                    </p>
+                    <p class="text-gray-600">
+                        Our mission is to empower businesses through financial excellence and innovation. We're driven by core values of integrity, innovation, and client success. At Alphington, we believe in building lasting partnerships with our clients, providing not just services, but comprehensive solutions that drive real business growth and success.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Client Success Stories</h2>
+                <p class="text-xl text-gray-600">Hear from businesses we've helped transform</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300" data-aos="fade-up">
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400">★★★★★</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Alphington transformed our financial operations completely. Their cash flow forecasting helped us optimize our working capital, resulting in a 30% improvement in cash management. The dedicated account manager is always available and proactive with solutions."</p>
+                    <div class="font-semibold text-gray-900">Sarah Johnson</div>
+                    <div class="text-gray-600">CEO, TechStart Solutions</div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400">★★★★★</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">"The payroll processing service has saved us countless hours each month. Their attention to detail and proactive tax planning advice has been invaluable for our growing business."</p>
+                    <div class="font-semibold text-gray-900">Michael Chen</div>
+                    <div class="text-gray-600">Operations Director, GrowthWise</div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400">★★★★★</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Since partnering with Alphington, we've seen a 25% increase in profitability through better financial planning and cost management. Their strategic guidance has been crucial to our expansion."</p>
+                    <div class="font-semibold text-gray-900">Emily Rodriguez</div>
+                    <div class="text-gray-600">CFO, Retail Innovation Co</div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400">★★★★★</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">"The real-time financial insights and reporting have revolutionized how we make decisions. We now have complete visibility into our finances and can act quickly on opportunities."</p>
+                    <div class="font-semibold text-gray-900">David Thompson</div>
+                    <div class="text-gray-600">Founder, Digital Solutions Hub</div>
                 </div>
             </div>
         </div>
@@ -135,31 +236,52 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
-                <p class="text-xl text-gray-600">Find answers to common questions about our services</p>
+                <p class="text-xl text-gray-600">Everything you need to know about our services</p>
             </div>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="bg-gray-50 rounded-lg p-6" data-aos="fade-up">
-                    <h3 class="text-lg font-semibold text-gray-900 mb-3">What services do you offer?</h3>
-                    <p class="text-gray-600">We provide comprehensive accounting services including dedicated financial management, payroll processing, and cash flow forecasting.</p>
+                <div class="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-all duration-300" data-aos="fade-up">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-3">What services are included in your financial management package?</h3>
+                    <p class="text-gray-600">Our comprehensive package includes dedicated account management, real-time financial reporting, payroll processing, tax planning, cash flow forecasting, and strategic business consulting. Each service is customizable to your specific needs.</p>
                 </div>
-                <div class="bg-gray-50 rounded-lg p-6" data-aos="fade-up">
-                    <h3 class="text-lg font-semibold text-gray-900 mb-3">How can I get started?</h3>
-                    <p class="text-gray-600">Simply contact us through our website or email, and we'll schedule a consultation to discuss your needs.</p>
+                
+                <div class="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-all duration-300" data-aos="fade-up">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-3">How quickly can you implement your services for my business?</h3>
+                    <p class="text-gray-600">We can typically complete the onboarding process within 5-7 business days. This includes system setup, data migration, and initial consultation to understand your specific requirements and goals.</p>
                 </div>
-                <div class="bg-gray-50 rounded-lg p-6" data-aos="fade-up">
-                    <h3 class="text-lg font-semibold text-gray-900 mb-3">What makes Alphington different?</h3>
-                    <p class="text-gray-600">We combine personal service with expert financial knowledge to deliver tailored solutions for your business growth.</p>
+
+                <div class="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-all duration-300" data-aos="fade-up">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-3">What technology and tools do you use?</h3>
+                    <p class="text-gray-600">We utilize industry-leading financial software and proprietary tools for accounting, payroll, and reporting. Our platform integrates with popular business software like QuickBooks, Xero, and Sage for seamless operations.</p>
+                </div>
+
+                <div class="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-all duration-300" data-aos="fade-up">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-3">How do you ensure data security and compliance?</h3>
+                    <p class="text-gray-600">We maintain bank-level security protocols, including 256-bit encryption, regular security audits, and compliance with industry standards. Our team stays updated with the latest regulations to ensure your business remains compliant.</p>
+                </div>
+
+                <div class="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-all duration-300" data-aos="fade-up">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-3">What support do you provide after implementation?</h3>
+                    <p class="text-gray-600">You'll have access to 24/7 support, regular check-ins with your dedicated account manager, quarterly business reviews, and ongoing training for your team. We're committed to being a long-term partner in your success.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-24 bg-blue-600">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <section class="py-24 bg-blue-600 relative overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Background" class="object-cover w-full h-full opacity-10">
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <h2 class="text-3xl font-bold text-white mb-8" data-aos="fade-up">Ready to Transform Your Business?</h2>
-            <a href="https://theaccountants.com" class="inline-flex items-center px-8 py-4 border-2 border-white text-lg font-semibold rounded-md text-white hover:bg-white hover:text-blue-600 transition transform hover:scale-105 duration-300" data-aos="fade-up" data-aos-delay="100">
-                Get Started Today
+            <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                Join over 1,000+ businesses that trust Alphington with their financial success. Get started today and experience the difference.
+            </p>
+            <a href="https://theaccountants.com" class="inline-flex items-center px-8 py-4 border-2 border-white text-lg font-semibold rounded-md text-white hover:bg-white hover:text-blue-600 transition-all duration-300 transform hover:scale-105 hover:shadow-xl" data-aos="fade-up" data-aos-delay="200">
+                Schedule Your Free Consultation
+                <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                </svg>
             </a>
         </div>
     </section>
@@ -170,25 +292,29 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Alphington</h3>
-                    <p class="text-gray-400">Transform your business with expert financial services.</p>
+                    <p class="text-gray-400">Empowering businesses through expert financial solutions and innovation.</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Contact</h4>
-                    <p class="text-gray-400">contact@example.com</p>
+                    <p class="text-gray-400">Email: contact@example.com</p>
+                    <p class="text-gray-400">Phone: (555) 123-4567</p>
                 </div>
                 <div>
-                    <h4 class="text-lg font-semibold mb-4">Links</h4>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
                     <ul class="space-y-2">
                         <li><a href="#services" class="text-gray-400 hover:text-white transition-colors duration-300">Services</a></li>
                         <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
                         <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Legal</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://test-acc-12349.github.io/alphington-accounting-services-2025-04-24-o3e2f/privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://test-acc-12349.github.io/alphington-accounting-services-2025-04-24-o3e2f/terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://test-acc-12349.github.io/alphington-accounting-services-2025-04-24-o3e2f/blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -204,6 +330,35 @@
             duration: 1000,
             once: true
         });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
     </script>
+</body>
 </body>
 </html>
